@@ -1,0 +1,2 @@
+class PikkujoulutController < ApplicationController
+end
