@@ -24,7 +24,7 @@ teams = [
   }
 ]
 puzzles = [
-  {
+  { # ID = 1, etc.
     description: '1',
     image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
     answer: 'foo',
@@ -77,5 +77,5 @@ puzzles = [
   },
 ]
 
-teams.each {|team| Team.create(team)}
-puzzles.each {|puzzle| Puzzle.create(puzzle)}
+Team.create(teams)
+Puzzle.create(puzzles)
