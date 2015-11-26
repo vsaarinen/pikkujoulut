@@ -4,6 +4,6 @@
 
 <%= form_tag("/login", method: "post") do %>
   <%= label_tag(:team, "Tiimi:") %>
-  <%= text_field_tag(:team) %>
+  <%= text_field_tag(:team, '', autofocus: true) %>
   <%= submit_tag("Kirjaudu") %>
 <% end %>
