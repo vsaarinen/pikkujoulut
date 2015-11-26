@@ -19,7 +19,7 @@ class PuzzleController < ApplicationController
         end
       current_team.save
     else
-      flash.now.alert = "#{params[:guess]} ei ole oikea ratkaisu"
+      flash.alert = "#{params[:guess]} ei ole oikea ratkaisu"
     end
 
     redirect_to action: 'show'
