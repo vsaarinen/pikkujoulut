@@ -26,54 +26,54 @@ teams = [
 puzzles = [
   { # ID = 1, etc.
     description: '1',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 2
   },
   {
     description: '2',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 3,
     final_puzzle_id: 8
   },
   {
     description: '3',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 4
   },
   {
     description: '4',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 5,
     final_puzzle_id: 9
   },
   {
     description: '5',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 6
   },
   {
     description: '6',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html',
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
     answer: 'foo',
     next_puzzle_id: 1,
     final_puzzle_id: 7
   },
   {
     description: '7',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html'
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
   },
   {
     description: '8',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html'
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
   },
   {
     description: '9',
-    image: 'http://s1215.photobucket.com/user/Rockingbro/media/170422_dancing_banana.gif.html'
+    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
   },
 ]
 
