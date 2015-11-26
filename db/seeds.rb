@@ -1,24 +1,18 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
+# Update your team and puzzle data in here. Assumes that the first
+# puzzle will have ID 1 and so on.
 teams = [
   {
-    name: 'piparmonsterit',
+    name: 'team-alongword',
     current_puzzle_id: 1,
     start_puzzle_id: 1
   },
   {
-    name: 'glögihirmut',
+    name: 'team-neverguessthis',
     current_puzzle_id: 3,
     start_puzzle_id: 3
   },
   {
-    name: 'tortuntuhoajat',
+    name: 'team-lookmanopasswords',
     current_puzzle_id: 5,
     start_puzzle_id: 5
   }
@@ -26,54 +20,54 @@ teams = [
 puzzles = [
   { # ID = 1, etc.
     description: '1',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 2
   },
   {
     description: '2',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 3,
     final_puzzle_id: 8
   },
   {
     description: '3',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 4
   },
   {
     description: '4',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 5,
     final_puzzle_id: 9
   },
   {
     description: '5',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 6
   },
   {
     description: '6',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif',
+    image: 'image-hint.png',
     answer: 'foo',
     next_puzzle_id: 1,
     final_puzzle_id: 7
   },
   {
     description: '7',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
+    image: 'image-hint.png'
   },
   {
     description: '8',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
+    image: 'image-hint.png'
   },
   {
     description: '9',
-    image: 'http://img3.wikia.nocookie.net/__cb20071019155930/uncyclopedia/images/7/7b/Dancing_banana.gif'
+    image: 'image-hint.png'
   },
 ]
 
