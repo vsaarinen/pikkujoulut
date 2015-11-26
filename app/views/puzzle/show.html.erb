@@ -1,0 +1,19 @@
+<% if flash[:alert] %>
+  <div class="alert"><%= flash[:alert] %></div>
+<% end %>
+
+<% if @puzzle.image %>
+  <%= image_tag(@puzzle.image) %>
+<% end %>
+
+<% if @puzzle.description %>
+  <p><%= @puzzle.description %></p>
+<% end %>
+
+<% if @puzzle.next_puzzle_id %>
+  <%= form_tag("/puzzle/guess", method: "post") do %>
+    <%= label_tag(:guess, "Vastaus:") %>
+    <%= text_field_tag(:guess) %>
+    <%= submit_tag("Kokeile") %>
+  <% end %>
+<% end %>
