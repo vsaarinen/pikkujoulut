@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'follow/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -11,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'puzzle', to: 'puzzle#show', as: 'puzzle'
   post 'puzzle/guess', to: 'puzzle#guess'
+
+  get 'follow', to: 'follow#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
