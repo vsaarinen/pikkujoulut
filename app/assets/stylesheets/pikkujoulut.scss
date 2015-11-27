@@ -1,3 +1,47 @@
 // Place all the styles related to the pikkujoulut controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+input[type=submit] {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  margin-left: 5px;
+  width: 100%;
+  max-width: 218px;
+}
+
+input {
+  line-height: 24px;
+  height: 30px;
+  font-size: 18px;
+}
+
+body {
+  font-family: monospace;
+}
+
+.alert {
+  padding-bottom: 12px;
+}
+
+#lakki {
+  width: 200px;
+  position: absolute;
+  left: 150px;
+  top: 20px;
+}
+
+#login {
+  position: absolute;
+  top: 152px;
+  max-width: 230px;
+
+  input[type=text] {
+    margin-left: 0;
+  }
+}

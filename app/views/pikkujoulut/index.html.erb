@@ -1,9 +1,9 @@
 <% if flash[:alert] %>
   <div class="alert"><%= flash[:alert] %></div>
 <% end %>
-
-<%= form_tag("/login", method: "post") do %>
+<%= image_tag("lakki.jpg", id: "lakki") %>
+<%= form_tag("/login", method: "post", id: "login") do %>
   <%= label_tag(:team, "Tiimi:") %>
   <%= text_field_tag(:team, '', autofocus: true) %>
-  <%= submit_tag("Kirjaudu") %>
+  <%= submit_tag("Aloita") %>
 <% end %>
