@@ -7,7 +7,7 @@ class PikkujoulutController < ApplicationController
       session[:team_id] = team.id
       redirect_to :puzzle
     else
-      flash.now.alert = "Oivoi, #{params[:team]} ei saa leikkiä tänään"
+      flash.now.alert = "Oivoi, #{params[:team]} ei saa leikkiä tänään" unless params[:team].blank?
       render "index"
     end
   end
