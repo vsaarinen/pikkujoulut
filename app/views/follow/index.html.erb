@@ -1,4 +1,5 @@
 <h1>Teams at:</h1>
 <% @teams.each do |team| %>
   <b><%= team.name %>:</b> puzzle #<%= team.current_puzzle_id %><br />
+  <%= time_ago_in_words(team.updated_at) %> ago<br /><br />
 <% end %>
