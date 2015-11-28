@@ -2,12 +2,12 @@
   <div class="alert"><%= flash[:alert] %></div>
 <% end %>
 
-<% if @puzzle.image %>
-  <%= image_tag(@puzzle.image) %>
+<% if @puzzle.description %>
+  <p><strong><%= @puzzle.description %></strong></p>
 <% end %>
 
-<% if @puzzle.description %>
-  <p><%= @puzzle.description %></p>
+<% if @puzzle.image %>
+  <%= image_tag(@puzzle.image) %>
 <% end %>
 
 <% if @puzzle.next_puzzle_id %>
